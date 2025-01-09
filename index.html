@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDP Junior</title> <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="./pdp-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="con">
+        <div class="chap">
+            <h3>PDP Junior</h3>
+            <h1>Nigmatullayev Ahmadjon</h1>
+            <p style="width: 400px;">Men bugun Juniorda yangicha yondashuv kashf qildim va ilk bor dastulashda kod yozdim va men bundan juda hursandman 🙂</p>
+            <button onclick="playAudios()"><i class="fa-regular fa-circle-play fa-2x"></i></button>
+        </div>
+        <div class="ong">
+            <div class="onimatsia">
+                <img src="./pdp-logo.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+<script>
+    const audio1 = new Audio("./brand-audio.m4a")
+    const audio2 = new Audio("./matn.m4a")
+
+audio1.onendet = function () {
+    audio2.play();
+};
+
+function playAudios() {
+    audio1.play();
+}
+
+
+
+
+
+
+
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
